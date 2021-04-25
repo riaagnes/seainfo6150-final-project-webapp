@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error tests renders correctly 1`] = `
+<div>
+  <div
+    class="content_wrapper"
+  >
+    <a
+      class="back"
+      href="/"
+    >
+      Back
+    </a>
+    <div
+      class="image"
+    >
+      <picture>
+        <source
+          media="(max-width: 300px)"
+          srcset="https://placekitten.com/200/200/ 200w"
+        />
+        <source
+          media="(max-width: 600px)"
+          srcset="https://placekitten.com/400/400 100w"
+        />
+        <source
+          media="(max-width: 1500px)"
+          srcset="https://placekitten.com/800/800 800w"
+        />
+        <img
+          alt="This is a kitten"
+          src="https://placekitten.com/100/100"
+        />
+      </picture>
+    </div>
+    <div
+      class="title"
+    >
+      Oh no! Something went wrong. please click back button
+    </div>
+  </div>
+</div>
+`;

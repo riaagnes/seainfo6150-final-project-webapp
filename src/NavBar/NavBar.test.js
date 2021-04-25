@@ -1,8 +1,8 @@
 import React from "react";
-import Home from "./Home";
+import NavBar from "./NavBar";
 
-describe("Home tests", () => {
-    const props = {"mountains" : {
+describe("NavBar tests", () => {
+    const props = {
       "mountains" : [
         {
           "id": "7",
@@ -22,13 +22,13 @@ describe("Home tests", () => {
       ]
         
       
-    }} 
+    } 
       
     
 
     
     it("renders correctly", () => {
-      const { container } = render(<Home {...props}/>);
+      const { container } = render(<NavBar {...props}/>);
       expect(container).toMatchSnapshot();
     });
 });

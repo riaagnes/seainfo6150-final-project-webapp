@@ -1,0 +1,55 @@
+.article {
+    background: #fff;
+   display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    padding: 15px;
+   
+  }
+
+.back {
+   
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:#485e74;
+}
+
+.image{
+   align-self: center;
+   padding-bottom: 1em;
+   height:400px;
+   width:400px;
+
+}
+  .gridContainer {
+    font-size: 18px;
+    column-count: 4;
+  }
+
+  @media screen and (max-width: 1000px) and (min-width: 700px) {
+    .gridContainer {
+      font-size: 20px;
+      column-count: 3;
+    }
+    
+  }
+
+  @media screen and (max-width: 700px) and (min-width: 600px) {
+    .gridContainer {
+      font-size: 20px;
+      column-count: 2;
+    }
+  
+  }
+
+  @media (max-width: 600px) and (min-width: 378px) {
+    .gridContainer {
+      font-size: 15px;
+      column-count: 1;
+    }
+  }

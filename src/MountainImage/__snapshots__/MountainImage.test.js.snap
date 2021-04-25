@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MountainImage tests renders correctly 1`] = `
+<div>
+  <img
+    class="image"
+    src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Mt_si_and_meadowbrook_cows.jpg"
+  />
+</div>
+`;

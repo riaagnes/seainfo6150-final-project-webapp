@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar tests renders correctly 1`] = `
+<div>
+  <div>
+    <nav>
+      <div
+        class="logo"
+      >
+        <i
+          class="fas fa-mountain mon"
+        />
+        <h3>
+          SeaMountains
+        </h3>
+      </div>
+      <ul
+        class="navlinks"
+      >
+        <li
+          class="link"
+        >
+          <a
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          class="link"
+        >
+          <a
+            href="/contact"
+          >
+            Contact us
+          </a>
+        </li>
+        <li
+          class="link"
+        >
+          <a
+            href="/about"
+          >
+            About
+          </a>
+        </li>
+      </ul>
+      <div
+        class="hamburgerToggle"
+      >
+        <i
+          class="fas fa-bars fa-lg"
+        />
+      </div>
+    </nav>
+    <div>
+      <ul
+        class="container"
+      >
+        <li
+          class="container"
+        >
+          <article
+            class="article"
+          >
+            <header
+              class="header"
+            >
+              <img
+                class="image"
+                src="https://www.wta.org/site_images/hikes/mount-pilchuck-by-day-hike.jpg/@@images/45b388b1-1ef8-4a37-a017-9b0a25a137b8.jpeg"
+              />
+              <h2
+                class="title"
+              >
+                <a
+                  class="link"
+                  href="/mountainlist/7"
+                >
+                  Mount Pilchuck
+                </a>
+              </h2>
+            </header>
+            <div
+              class="wrapper"
+            />
+            <button
+              class="button"
+            >
+              Show more
+            </button>
+          </article>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

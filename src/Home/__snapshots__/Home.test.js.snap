@@ -1,92 +1,46 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders the home component correctly 1`] = `
+exports[`Home tests renders correctly 1`] = `
 <div>
   <div>
-    The home page
-    <h1>
-      I changed this homepage
-    </h1>
-    <img
-      alt="tree frog"
-      src="treefrog.jpg"
-    />
-    <div>
-      <form>
-        <label
-          for="myTextId"
+    <ul
+      class="container"
+    >
+      <li
+        class="container"
+      >
+        <article
+          class="article"
         >
-          Input
-        </label>
-        <input
-          id="myTextId"
-          name="myText"
-          type="text"
-        />
-        <label
-          for="myDropdownId"
-        >
-          Input
-        </label>
-        <select
-          id="myDropdownId"
-          name="myDropdown"
-        >
-          <option
-            value="foo"
+          <header
+            class="header"
           >
-            Foo
-          </option>
-          <option
-            value="bar"
+            <img
+              class="image"
+              src="https://www.wta.org/site_images/hikes/mount-pilchuck-by-day-hike.jpg/@@images/45b388b1-1ef8-4a37-a017-9b0a25a137b8.jpeg"
+            />
+            <h2
+              class="title"
+            >
+              <a
+                class="link"
+                href="/mountainlist/7"
+              >
+                Mount Pilchuck
+              </a>
+            </h2>
+          </header>
+          <div
+            class="wrapper"
+          />
+          <button
+            class="button"
           >
-            Bar
-          </option>
-          <option
-            value="baz"
-          >
-            Baz
-          </option>
-        </select>
-        <label
-          for="foo-yes"
-        >
-          yes
-        </label>
-        <input
-          id="foo-yes"
-          name="foo"
-          type="radio"
-          value="yes"
-        />
-        <label
-          for="foo-no"
-        >
-          no
-        </label>
-        <input
-          id="foo-no"
-          name="foo"
-          type="radio"
-          value="no"
-        />
-        <label
-          for="foo-maybe"
-        >
-          maybe
-        </label>
-        <input
-          id="foo-maybe"
-          name="foo"
-          type="radio"
-          value="maybe"
-        />
-        <input
-          type="submit"
-          value="Send it"
-        />
-      </form>
-    </div>
+            Show more
+          </button>
+        </article>
+      </li>
+    </ul>
   </div>
 </div>
 `;
